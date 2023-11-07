@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_login.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="410dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFCBC0"
+    android:layout_gravity="center_horizontal">
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="80dp"
+            app:backgroundTint="@null"
+            android:background="#DCD5D8"
+            android:textColor="#000000"
+            android:text="Log In" />
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            app:backgroundTint="@null"
+            android:background="#DCD5D8"
+            android:textColor="#000000"
+            android:text="Sign Up" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:background="@drawable/border_background"
+        >
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:id="@+id/menuImg"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/menu" />
+                <TextView
+                    android:id="@+id/menuTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Food Menu" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:id="@+id/cartImg"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/cart" />
+                <TextView
+                    android:id="@+id/cartTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Cart" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/paymentImg"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/payment" />
+                <TextView
+                    android:id="@+id/paymentTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Payment" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="40dp"
+
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/preorderImg"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/preorder" />
+                <TextView
+                    android:id="@+id/preorderTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pre Order" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+
+
+            >
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/feedbackImg"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/feedback" />
+                <TextView
+                    android:id="@+id/feedbackTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Feedback" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="40dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ratingImg"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/bookmark" />
+                <TextView
+                    android:id="@+id/bookmarkTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Bookmark" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
