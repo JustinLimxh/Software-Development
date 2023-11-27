@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_login.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="410dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFCBC0"
+    android:layout_gravity="center_horizontal">
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/admintitle"
+            android:layout_marginLeft="130dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="Foods" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:background="@drawable/border_background"
+        >
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:id="@+id/roticanaiImg"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/roticanai" />
+                <TextView
+                    android:id="@+id/roticanaiTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="60dp"
+                    android:text="Roti Canai" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:id="@+id/nasilemakImg"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/nasilemak" />
+                <TextView
+                    android:id="@+id/nasilemakTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="70dp"
+                    android:text="Nasi Lemak" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/friedriceImg"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    app:srcCompat="@drawable/friedrice" />
+                <TextView
+                    android:id="@+id/friedriceTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Fried Rice" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="40dp"
+
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/pizzaImg"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/pizza" />
+                <TextView
+                    android:id="@+id/pizzaTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pizza" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+
+
+            >
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/spaghettiImg"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/spaghetti" />
+                <TextView
+                    android:id="@+id/spaghettiTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="60dp"
+                    android:text="Spaghetti" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="40dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/wantanmeeImg"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/wantanmee" />
+                <TextView
+                    android:id="@+id/wantanmeeTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="WanTan Mee" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

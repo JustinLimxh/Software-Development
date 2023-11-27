@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_login.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="410dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFCBC0"
+    android:layout_gravity="center_horizontal">
+
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="160dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/admintitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="Menu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical"
+        android:background="@drawable/border_background"
+        >
+
+        <Button
+            android:id="@+id/vfeed"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:background="#DCD5D8"
+            android:text="Foods"
+            android:textColor="#000000"
+            app:backgroundTint="@null" />
+        <Button
+            android:id="@+id/pushnoti"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:background="#DCD5D8"
+            android:text="Drinks"
+            android:textColor="#000000"
+            app:backgroundTint="@null" />
+        <Button
+            android:id="@+id/upmenu"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:background="#DCD5D8"
+            android:text="Vegetarian"
+            android:textColor="#000000"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+
+</RelativeLayout>
