@@ -1,0 +1,46 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AdminFoodMenuActivity">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#DCD5D8"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_marginTop="20dp"
+        android:onClick="goToUploadActivity"/>
+
+    <Button
+        android:id="@+id/btnDrinkUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drink Upload"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnUpload"
+        android:onClick="goToDrinkUploadActivity"/>
+
+    <Button
+        android:id="@+id/btnSidesUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sides Upload"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnDrinkUpload"
+        android:onClick="goToSidesUploadActivity"/>
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Feedback"
+            android:exported="false"
+            android:theme="@style/Theme.CartActivity" />
+        <activity
+            android:name=".wallet"
+            android:exported="false"
+            android:theme="@style/Theme.CartActivity" />
+        <activity
+            android:name=".notifications"
+            android:exported="false"
+            android:theme="@style/Theme.CartActivity" />
+        <activity
+            android:name=".adminNotification"
+            android:exported="false"
+            android:theme="@style/Theme.CartActivity" />
+        <activity
+            android:name=".adminViewFeedback"
+            android:exported="false"
+            android:theme="@style/Theme.CartActivity" />
+        <activity
+            android:name=".adminhomepage"
+            android:exported="false"
+            android:theme="@style/Theme.CartActivity" />
+        <activity
+            android:name=".sideMenu"
+            android:exported="false"
+            android:theme="@style/Theme.UploadRetrieveImage" />
+        <activity
+            android:name=".drinkMenu"
+            android:exported="false"
+            android:theme="@style/Theme.UploadRetrieveImage" />
+        <activity
+            android:name=".SidesUploadActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SidesUploadActivity" />
+        <activity
+            android:name=".AdminFoodMenuActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AdminFoodMenu" />
+        <activity
+            android:name=".DrinkUploadActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DrinkUploadActivity" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CartActivity" />
+        <activity
+            android:name=".AdminSignupActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AdminSignup" />
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AdminLogin" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Signup" />
+        <activity
+            android:name=".cart"
+            android:exported="false"
+            android:theme="@style/Theme.CartActivity" />
+        <activity
+            android:name=".menuSelect"
+            android:exported="false"
+            android:theme="@style/Theme.menuSelect" />
+        <activity
+            android:name=".foodMenu"
+            android:exported="false"
+            android:theme="@style/Theme.UploadRetrieveImage" />
+        <activity
+            android:name=".userMenu"
+            android:exported="false"
+            android:theme="@style/Theme.userMenu" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UploadActivity"
+            android:exported="true"
+            android:theme="@style/Theme.UploadActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
